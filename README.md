@@ -1,3 +1,61 @@
+# tailwind design system
+
+> "Design is not just what it looks like and feels like. Design is how it works."
+
+Steve Jobs
+
+> "A design system is the story of how your organization designs and builds digital products."
+
+> "The heart and soul of a design system is a code library of reusable components that power real software applications."
+
+Brad Frost, [The Technical side of Design Systems](https://www.youtube.com/watch?v=TgWyyoofKIA)
+
+> "Design systems should empower developers & offer a common language with the designers for optimal collaboration."
+
+[Building a “utility-first” design system (part 1)](https://uxdesign.cc/building-utility-first-design-systems-part-1-52ce020630b)
+
+## pros
+
+> "Tailwind is more than a CSS framework, it's an engine for creating design systems."
+
+https://v1.tailwindcss.com/
+
+> "By adopting the utility-first CSS methodology & Tailwind’s configuration file, designers get a clear structure for their design systems while developers can swiftly work with the generated classes without adding new CSS."
+
+[Design systems after Tailwind](https://medium.com/@tholex/design-systems-after-tailwind-2513daebcedc)
+
+## cons
+
+Don't use Tailwind for your Design System
+https://sancho.dev/blog/tailwind-and-design-systems/
+
+## Atomic Design
+
+
+The five stages of Atomic Design are atoms, molecules, organisms, templates, and pages.
+
+![Five Stages of Atomic Design](./atomic_design.jpeg)
+
+
+> "Atomic design provides a clear methodology for crafting design systems. Clients and team members are able to better appreciate the concept of design systems by actually seeing the steps laid out in front of them.
+
+> "Atomic design gives us the ability to traverse from abstract to concrete. Because of this, we can create systems that promote consistency and scalability while simultaneously showing things in their final context. And by assembling rather than deconstructing, we’re crafting a system right out of the gate instead of cherry picking patterns after the fact."
+
+Brad Frost https://bradfrost.com/blog/post/atomic-web-design/
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
