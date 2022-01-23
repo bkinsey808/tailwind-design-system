@@ -9,6 +9,7 @@ const Home: NextPage = () => {
     <div>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Image src={vercelPic} alt="vercel" width="283" height="64" />
+      <div className="about-our-company-fill">this is a test</div>
     </div>
   );
 };

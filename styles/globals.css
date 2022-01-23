@@ -18,3 +18,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.about-our-company-fill {
+  background: url("../public/vercel.svg") no-repeat;
+}
