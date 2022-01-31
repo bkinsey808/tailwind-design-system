@@ -1,16 +1,20 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import type { GetStaticProps, NextPage } from "next";
 
-import vercelPic from "../public/vercel.svg";
+import LandingPage from "../components/LandingPage";
+import { fetchXDLandingEntriesBySlug } from "../lib/api";
 
-const Home: NextPage = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Image src={vercelPic} alt="vercel" width="283" height="64" />
-    </div>
-  );
+const Home: NextPage<{ preview: boolean; page: any }> = ({ preview, page }) => {
+  return <LandingPage preview={preview} page={page} />;
+};
+
+export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
+  const homePage = await fetchXDLandingEntriesBySlug(preview);
+  return {
+    props: {
+      preview: preview,
+      page: homePage[0].fields,
+    },
+  };
 };
 
 export default Home;
